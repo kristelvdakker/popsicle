@@ -1,0 +1,22 @@
+.buttonGo {
+  color: $color-button;
+  background: $color-background-button-go;
+  border-radius: 50%;
+  border: none;
+  width: 160px;
+  height: 160px;
+  border-top: 0 solid red;
+  border-bottom: 7px solid red;
+  border-right: 7px solid red;
+  border-left: 0 solid red;
+}
+
+.buttonGoBorder {
+  content: "";
+  background: red;
+  border-radius: 50%;
+  display: flex;
+  margin-top: 7px;
+  height: 100%;
+  width: 100%;
+}

@@ -1,0 +1,152 @@
+@import "variables";
+
+/* Character Styles */
+.unnamed-character-style-1 {
+  font-family: var(font-family-poppins);
+  font-style: var(font-style-normal);
+  font-weight: var(font-weight-900);
+  font-size: var(font-size-28);
+  line-height: var(line-spacing-42);
+  letter-spacing: var(character-spacing-0-56);
+  color: var(color-ffffff);
+}
+.unnamed-character-style-2 {
+  font-family: var(font-family-poppins);
+  font-style: var(font-style-normal);
+  font-weight: var(font-weight-600);
+  font-size: var(font-size-14);
+  line-height: var(line-spacing-24);
+  letter-spacing: var(character-spacing-0-28);
+  color: var(color-f16636);
+}
+.unnamed-character-style-3 {
+  font-family: var(font-family-poppins);
+  font-style: var(font-style-normal);
+  font-weight: var(font-weight-600);
+  font-size: var(font-size-14);
+  line-height: var(line-spacing-24);
+  letter-spacing: var(character-spacing-0-28);
+  color: var(color-17a085);
+}
+.unnamed-character-style-4 {
+  font-family: var(font-family-poppins);
+  font-style: var(font-style-normal);
+  font-weight: var(font-weight-normal);
+  font-size: var(font-size-12);
+  line-height: var(line-spacing-18);
+  letter-spacing: var(character-spacing-0);
+  color: var(color-03004e);
+}
+.unnamed-character-style-5 {
+  font-family: var(font-family-poppins);
+  font-style: var(font-style-normal);
+  font-weight: var(font-weight-normal);
+  font-size: var(font-size-12);
+  line-height: var(line-spacing-20);
+  letter-spacing: var(character-spacing-0-24);
+  color: var(color-03004e);
+}
+.unnamed-character-style-6 {
+  font-family: var(font-family-poppins);
+  font-style: var(font-style-normal);
+  font-weight: var(font-weight-normal);
+  font-size: var(font-size-14);
+  line-height: var(line-spacing-22);
+  letter-spacing: var(character-spacing-0-28);
+  color: var(color-03004e);
+}
+.unnamed-character-style-7 {
+  font-family: var(font-family-poppins);
+  font-style: var(font-style-normal);
+  font-weight: var(font-weight-normal);
+  font-size: var(font-size-18);
+  line-height: var(line-spacing-28);
+  letter-spacing: var(character-spacing-0-36);
+  color: var(color-03004e);
+}
+.unnamed-character-style-8 {
+  font-family: var(font-family-poppins);
+  font-style: var(font-style-normal);
+  font-weight: var(font-weight-normal);
+  font-size: var(font-size-16);
+  line-height: var(line-spacing-24);
+  letter-spacing: var(character-spacing-0-32);
+  color: var(color-03004e);
+}
+.unnamed-character-style-9 {
+  font-family: var(font-family-poppins);
+  font-style: var(font-style-normal);
+  font-weight: var(font-weight-bold);
+  font-size: var(font-size-16);
+  line-height: var(line-spacing-25);
+  letter-spacing: var(character-spacing-0-32);
+  color: var(color-03004e);
+}
+.unnamed-character-style-10 {
+  font-family: var(font-family-poppins);
+  font-style: var(font-style-normal);
+  font-weight: var(font-weight-bold);
+  font-size: var(font-size-18);
+  line-height: var(line-spacing-27);
+  letter-spacing: var(character-spacing-0-36);
+  color: var(color-03004e);
+}
+.unnamed-character-style-11 {
+  font-family: var(font-family-poppins);
+  font-style: var(font-style-normal);
+  font-weight: var(font-weight-bold);
+  font-size: var(font-size-20);
+  line-height: var(line-spacing-30);
+  letter-spacing: var(character-spacing-0-4);
+  color: var(color-03004e);
+}
+.unnamed-character-style-12 {
+  font-family: var(font-family-poppins);
+  font-style: var(font-style-normal);
+  font-weight: var(font-weight-bold);
+  font-size: var(font-size-28);
+  line-height: var(line-spacing-42);
+  letter-spacing: var(character-spacing-0-56);
+  color: var(color-03004e);
+}
+.unnamed-character-style-13 {
+  font-family: var(font-family-poppins);
+  font-style: var(font-style-normal);
+  font-weight: var(font-weight-bold);
+  font-size: var(font-size-24);
+  line-height: var(line-spacing-35);
+  letter-spacing: var(character-spacing-0-48);
+  color: var(color-03004e);
+}
+.unnamed-character-style-14 {
+  font-family: var(font-family-poppins);
+  font-style: var(font-style-normal);
+  font-weight: var(font-weight-bold);
+  font-size: var(font-size-32);
+  line-height: var(line-spacing-48);
+  letter-spacing: var(character-spacing-0-64);
+  color: var(color-03004e);
+}
+.unnamed-character-style-15 {
+  font-family: var(font-family-poppins);
+  font-style: var(font-style-normal);
+  font-weight: var(font-weight-bold);
+  font-size: var(font-size-40);
+  line-height: var(line-spacing-60);
+  letter-spacing: var(character-spacing-0-8);
+  color: var(color-03004e);
+}
+.unnamed-character-style-16 {
+  font-family: var(font-family-poppins);
+  font-style: var(font-style-normal);
+  font-weight: var(font-weight-bold);
+  font-size: var(font-size-48);
+  line-height: var(line-spacing-72);
+  letter-spacing: var(character-spacing-0-96);
+  color: var(color-03004e);
+}
+
+body {
+  background: $color-background;
+  display: flex;
+}

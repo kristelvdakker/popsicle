@@ -57,6 +57,24 @@ model Token {
   @@unique([hashedToken, type])
 }
 
+model Group {
+  id        Int      @id @default(autoincrement())
+  title     String   @unique
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  kids      Kid[]
+}
+
+model Kid {
+  id        Int      @id @default(autoincrement())
+  name      String
+  group     Group    @relation(fields: [groupId], references: [id], onDelete: Cascade, onUpdate: Cascade)
+  groupId   Int
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  active    Boolean  @default(true)
+}
+
 // NOTE: It's highly recommended to use an enum for the token type
 //       but enums only work in Postgres.
 //       See: https://blitzjs.com/docs/database-overview#switch-to-postgre-sql

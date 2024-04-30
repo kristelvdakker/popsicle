@@ -1,0 +1,15 @@
+@import "variables";
+@import "components/stick";
+@import "components/button";
+@import "components/buttonGo";
+@import "components/buttonReset";
+
+.container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.buttonContainer {
+  width: 160px;
+}
