@@ -7,16 +7,13 @@ import css from "../../styles/Group.module.scss"
 const ButtonGo = (kids: any) => {
   const [updateGroupMutation] = useMutation(updateGroup)
   console.log("KIDS", kids)
-  const ids = Array<number>
-  kids.forEach(({ id }) => ids.push(id))
-  const random = Math.floor(Math.random() * ids.length)
-
-  console.log(ids[random])
+  const ids = kids.map((item) => item.id)
+  const random = ids[Math.floor(Math.random() * ids.length)]
 
   const handleClick = async (id: number) => {
     try {
       const updated = await updateGroupMutation({
-        id,
+        id: ids[random],
         status: false,
       })
       alert("Success!" + JSON.stringify(updated))
